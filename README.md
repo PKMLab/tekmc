@@ -1,13 +1,5 @@
 # TEKMC - Trajectory Extending Kinetic Monte Carlo
 
-## Authors
-
-Subhadeep Dasgupta \
-Arun K. S \
-Prabal K. Maiti
-
-*Affiliation - Department of Physics, Indian Institute of Science, Bangalore 560012, India*
-
 ## [Installation Instructions](docs/installation_instructions.md)
 
 In tools folder, modify [run_tekmc.py](tools/run_tekmc.py) for your case. \
