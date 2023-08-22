@@ -1,4 +1,4 @@
-# TEKMC
+# TEKMC - Trajectory Extending Kinetic Monte Carlo
 
 ## [Installation Instructions](docs/installation_instructions.md)
 
