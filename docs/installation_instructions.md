@@ -1,8 +1,7 @@
 # Installation
 
-git clone https://github.com/Thanush1/TEKMC.git
-
-cd TEKMC 
+git clone https://github.com/PKMLab/tekmc.git
+cd tekmc 
 
 # Dependencies 
 To use TEKMC, the following libraries and software must be installed.
