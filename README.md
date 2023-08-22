@@ -4,7 +4,8 @@
 
 Subhadeep Dasgupta \
 Arun K. S \
-Prabal K. Maiti \
+Prabal K. Maiti
+
 *Affiliation - Department of Physics, Indian Institute of Science, Bangalore 560012, India*
 
 ## [Installation Instructions](docs/installation_instructions.md)
