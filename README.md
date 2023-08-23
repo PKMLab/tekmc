@@ -48,4 +48,7 @@ cmap		                      :  str, default: ‘terrain’
 </pre>
 **TEKMC object has the following methods**
 
-#### [tekmc.TEKMC(spacings, n_walks, n_steps = None, save_prob = True, create_prob = False, traj_steps = 1000, traj_n = 3, traj_colors = traj_colors, save_dir = None)](docs/method_1.md)
+## [tekmc.TEKMC(spacings, n_walks, n_steps = None, save_prob = True, create_prob = False, traj_steps = 1000, traj_n = 3, traj_colors = traj_colors, save_dir = None)](docs/method_1.md)
+
+## References:
+[1] Neyertz, S., and D. Brown. "A trajectory-extending kinetic Monte Carlo (TEKMC) method for estimating penetrant diffusion coefficients in molecular dynamics simulations of glassy polymers." Macromolecules 43.21 (2010): 9210-9214.
