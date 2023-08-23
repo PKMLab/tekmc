@@ -36,7 +36,7 @@ traj_colors	: list of colors, default: 'None'
 save_dir	: str, default: None
                   Directory where plot of TEKMC trajectories will be saved. If None, save_dir = ‘visualizations’.
 
-hopping_distance_analysis : boolean, default: 'True'
+hopping_distance_analysis : boolean, default: 'False'
 			    Analysis of hopping distances of individual random walks.
 
 </pre>
