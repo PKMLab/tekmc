@@ -1,8 +1,10 @@
 # TEKMC - Trajectory Extending Kinetic Monte Carlo
 
-## [Installation Instructions](docs/installation_instructions.md)
+Please read the docs for [Installation Instructions](docs/installation_instructions.md) and description of other methods and variables.
 
-In tools folder, modify [run_tekmc.py](tools/run_tekmc.py) for your case. \
+To run, modify [run_tekmc.py](tools/run_tekmc.py) for your simulation trajectories and run using python.
+
+
 Object of TEKMC class requires the following parameters.
 
 **Parameters**
