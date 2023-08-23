@@ -13,7 +13,7 @@ spacings	  : list of floats
 save_dir	  : str, default: None
   		    Directory where plot will be saved. If None, save_dir = ‘visualizations’.
 
-color_map	  : str, default: ‘terrain’
+color_map	  : str, default: ‘tab20’
 		    Color map used in the plot.
 </pre>
 **Outputs**
