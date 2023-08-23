@@ -4,20 +4,20 @@
 # obtained from molecular dynamics simulation, and then
 # finding its exponent and diffusion constant
 # ---------------------------------------------------------------------------- #
-# Subhadeep Dasgupta, Arun kumar S.
+# Subhadeep Dasgupta, Arun kumar S., Prabal K. Maiti
 # Dept. of Physics, IISc Bangalore, India
 # ---------------------------------------------------------------------------- #
 # Version | Comments
 # ---------------------------------------------------------------------------- #
-# v7      | Option to only perform essential calculations       | Sep 30, 2022
+# v0.7    | Option to only perform essential calculations       | Sep 30, 2022
 #         | Timestep is read in ns and converted to ps          |
 #         | Fixed RuntimeWarning whle computing nu              |
-# v6      | Support for multiple trajectory files               | May 19, 2022
-# v5      | Option to analyze a portion of trajectory           | Mar  8, 2022
-# v4      | Package management and error handling               | Feb 26, 2022
-# v3      | Time and space optimization at sake of our sanity   | Feb 24, 2022
-# v2      | Parallel implementation implementation              | Feb 23, 2022
-# v1      | Basic functionality with parallel implementation    | Feb 23, 2022
+# v0.6    | Support for multiple trajectory files               | May 19, 2022
+# v0.5    | Option to analyze a portion of trajectory           | Mar  8, 2022
+# v0.4    | Package management and error handling               | Feb 26, 2022
+# v0.3    | Time and space optimization at sake of our sanity   | Feb 24, 2022
+# v0.2    | Parallel implementation implementation              | Feb 23, 2022
+# v0.1    | Basic functionality with parallel implementation    | Feb 23, 2022
 # ---------------------------------------------------------------------------- #
 
 # ---------------------------------------------------------------------------- #
