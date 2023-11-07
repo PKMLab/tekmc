@@ -16,6 +16,7 @@ This enables studying long-time dynamics of slowly diffusing systems that would 
 
 # Article
 Details regarding the main work are available here: https://doi.org/10.48550/arXiv.2311.02878
+
 Please cite the above if you have used any part of this code.
 
 # Usage
