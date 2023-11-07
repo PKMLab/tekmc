@@ -1,4 +1,4 @@
-# TEKMC - Trajectory Extending Kinetic Monte Carlo
+# TEKMC - Trajectory-Extending Kinetic Monte Carlo
 
 Please read the docs for [Installation Instructions](docs/installation_instructions.md) and description of other methods and variables.
 
@@ -15,8 +15,8 @@ The advantage of Trajectory Extending Kinetic Monte Carlo technique lies in utli
 This enables studying long-time dynamics of slowly diffusing systems that would otherwise take significant computation time.
 
 # Article
-Details regarding this work are available here: https://doi.org/10.48550/arXiv.2311.02878
-Please cite the above if you have used any part of this work.
+Details regarding the main work are available here: https://doi.org/10.48550/arXiv.2311.02878
+Please cite the above if you have used any part of this code.
 
 # Usage
 To run, modify [run_tekmc.py](tools/run_tekmc.py) for your simulation trajectories and run using python.
@@ -55,4 +55,5 @@ cmap		                      :  str, default: ‘terrain’
 ## [tekmc.TEKMC(spacings, n_walks, n_steps = None, save_prob = True, create_prob = False, traj_steps = 1000, traj_n = 3, traj_colors = traj_colors, save_dir = None)](docs/method_1.md)
 
 ## References:
-[1] Neyertz, S., and D. Brown. "A trajectory-extending kinetic Monte Carlo (TEKMC) method for estimating penetrant diffusion coefficients in molecular dynamics simulations of glassy polymers." Macromolecules 43.21 (2010): 9210-9214.
+[1] Subhadeep Dasgupta, Arun K. S, K. Ganapathy Ayappa, and Prabal K. Maiti. "Trajectory Extending Kinetic Monte Carlo Simulations to Evaluate Pure and Gas Mixture Diffusivities through a Dense Polymeric Membrane." arXiv 2311.02878 (2023).
+[2] Neyertz, S., and D. Brown. "A trajectory-extending kinetic Monte Carlo (TEKMC) method for estimating penetrant diffusion coefficients in molecular dynamics simulations of glassy polymers." Macromolecules 43.21 (2010): 9210-9214.
