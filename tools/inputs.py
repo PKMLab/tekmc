@@ -27,4 +27,4 @@ hopping_distance_analysis = True
 # ****************************** Important parameters *************************************
 
 # To modify other default parameters, modify defaults.py in src folder.
-# Look up https://github.com/Thanush1/TEKMC.git for more details on the parameters.
+# Look up https://github.com/PKMLab/tekmc for more details on the parameters.
