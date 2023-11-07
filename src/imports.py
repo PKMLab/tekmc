@@ -1,6 +1,5 @@
 "All the libraries needed by TEKMC package."
 
-from sklearn.metrics import mean_squared_error
 from collections import defaultdict, Counter
 from scipy.sparse import csr_matrix, save_npz, load_npz, vstack
 from mpl_toolkits import mplot3d
