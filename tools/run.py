@@ -5,7 +5,6 @@ import sys
 required_packages = [
     "mdtraj",
     "scipy",
-    "sklearn",
     "matplotlib",
     "numpy",
     "p_tqdm",
