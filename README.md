@@ -50,10 +50,9 @@ n_cpus		                      :  int , default: number of cores in the system
 cmap		                      :  str, default: ‘terrain’
 			                 Color map used to generate colors whenever required
 </pre>
-**TEKMC object has the following methods**
 
-## [tekmc.TEKMC(spacings, n_walks, n_steps = None, save_prob = True, create_prob = False, traj_steps = 1000, traj_n = 3, traj_colors = traj_colors, save_dir = None)](docs/method_1.md)
 
 ## References:
 [1] Subhadeep Dasgupta, Arun K. S, K. Ganapathy Ayappa, and Prabal K. Maiti. "Trajectory Extending Kinetic Monte Carlo Simulations to Evaluate Pure and Gas Mixture Diffusivities through a Dense Polymeric Membrane." arXiv 2311.02878 (2023).
+
 [2] Neyertz, S., and D. Brown. "A trajectory-extending kinetic Monte Carlo (TEKMC) method for estimating penetrant diffusion coefficients in molecular dynamics simulations of glassy polymers." Macromolecules 43.21 (2010): 9210-9214.
