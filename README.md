@@ -20,7 +20,7 @@ Details regarding the main work are available here: https://doi.org/10.48550/arX
 Please cite the above if you have used any part of this code.
 
 # Usage
-To run, modify [run_tekmc.py](tools/run_tekmc.py) for your simulation trajectories and run using python.
+To run, modify [run.py](tools/run.py) for your simulation trajectories and run using python.
 Object of TEKMC class requires the following inputs.
 
 **Parameters**
