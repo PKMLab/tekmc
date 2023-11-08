@@ -4,14 +4,14 @@ import os
 
 # Required Parameters
 
-topology_file       = 'system/examples/bulk_spce_water/bulk_spce.gro'
-trajectory_file     = 'system/examples/bulk_spce_water/bulk_spce.dcd'
+topology_file       = 'topo.gro'
+trajectory_file     = 'traj.dcd'
 atom_name           = 'O'
 timestep            = 0.01
 spacings_list       = [0.25, 0.26, 0.27]
 n_walks             = 5000
 n_components        = 3
-path_to_src         = "~/tekmc/src"
+path_to_src         = "/home/subhadeepd/tekmc/src"
 
 # Some optional parameters
 
