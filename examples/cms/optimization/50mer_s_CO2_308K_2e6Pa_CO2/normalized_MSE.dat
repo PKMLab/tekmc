@@ -1,0 +1,9 @@
+# Normalized Mean squared error:
+
+Spacing: [0.15]         MSE: 0.0898
+Spacing: [0.17]         MSE: 0.0145
+Spacing: [0.18]         MSE: 0.0010
+Spacing: [0.19]         MSE: 0.0006
+Spacing: [0.21]         MSE: 0.1303
+
+# [0.19] shows minimum MSE
