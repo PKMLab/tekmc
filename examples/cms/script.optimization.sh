@@ -28,7 +28,7 @@ do
                 sed -i "23c n_steps             = 10000" inputs.py
 
                 sed -i "2c #PBS -N ${mer}mer_${gas}_${pressure}" run_python_tekmc
-                sed -i "10c /home/jeet/installations/anaconda3/bin/python3 run.py >> ${save_dir}/logs/${mer}mer_${mixture}_${pressure}_${gas}.log 2>&1" run_python_tekmc
+                sed -i "10c python3 run.py >> ${save_dir}/logs/${mer}mer_${mixture}_${pressure}_${gas}.log 2>&1" run_python_tekmc
 
                 sleep 1s
 
