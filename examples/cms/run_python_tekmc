@@ -1,10 +1,10 @@
 #!/bin/bash
 #PBS -N 50mer_CO2_2e6
 #PBS -l nodes=1:ppn=24
-#PBS -l walltime=999:00:00
+#PBS -l walltime=24:00:00
 #PBS -j oe
 #PBS -o pbs_tekmc_out
 
 cd $PBS_O_WORKDIR
 
-/home/jeet/installations/anaconda3/bin/python3 run.py >> production_5us/logs/50mer_CO2_2e6_CO2.log 2>&1
+python3 run.py >> production_5us/logs/50mer_CO2_2e6_CO2.log 2>&1
