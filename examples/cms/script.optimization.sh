@@ -32,7 +32,6 @@ do
 
                 sleep 1s
 
-                #/home/jeet/installations/anaconda3/bin/python3 run.py >> initiation/logs/${mer}mer_${mixture}_${pressure}_${gas}.log 2>&1
                 qsub run_python_tekmc
 
                 sleep 1s
