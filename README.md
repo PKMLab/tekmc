@@ -15,9 +15,8 @@ The advantage of Trajectory Extending Kinetic Monte Carlo technique lies in utli
 This enables studying long-time dynamics of slowly diffusing systems that would otherwise take significant computation time.
 
 # Article
-Details regarding the main work are available here: https://doi.org/10.48550/arXiv.2311.02878
-
-Please cite the above if you have used any part of this code.
+Details regarding the main work: [Journal](https://pubs.acs.org/doi/10.1021/acs.jpcb.3c05661), [arXiv](https://doi.org/10.48550/arXiv.2311.02878) \
+Please cite us if you have used any part of this code.
 
 # Usage
 To run, modify [run.py](tools/run.py) for your simulation trajectories and run using python.
