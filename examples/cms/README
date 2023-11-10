@@ -1,0 +1,21 @@
+This is one configuration of CO2 caged inside 6F-CMS membrane [Ref].
+
+>> inputs.py sets up the required inputs
+>> run.py is used to run the tekmc method
+>> The bash scripts help executing many sets of (gas, temperature, pressure) on a typical HPC set-up
+>> In the directory system/
+  - The file name indicates 50 mer CMS with CO2 gas adsorbed
+  - Temperature = 308 K
+  - Pressure 2e6 Pa (20 bar)
+  - 50mer_s_CO2_308K_2e6Pa_CO2.gro : Topology file containing the centre of mass of the gas, identifier atom name is "CO2".
+  - 50mer_s_CO2_308K_2e6Pa_CO2.dcd : Trajectory file of the above topology
+>> script.initation.sh
+  - Sets up the initial search for grid sizes by performing short tekmc runs for a lot of d_grid values
+  - The mean squared error is used to find the optimal d_grid
+>> script.optimization.sh
+  - Fetches output of inititation to find a finer d_grid
+  - Runs are performed for a slightly longer duration
+>> script.production.sh
+  - Perform the long tekmc runs for three best d_grid values
+
+[Ref] Dasgupta, Subhadeep, et al. "Influence of chain length on structural properties of carbon molecular sieving membranes and their effects on CO2, CH4 and N2 adsorption: A molecular simulation study." Journal of Membrane Science 664 (2022): 121044., https://www.sciencedirect.com/science/article/pii/S037673882200789X?via%3Dihub
