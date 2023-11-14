@@ -53,6 +53,5 @@ cmap		                      :  str, default: ‘terrain’
 
 
 ## References:
-[1] Subhadeep Dasgupta, Arun K. S., K. Ganapathy Ayappa, and Prabal K. Maiti. "Trajectory-Extending Kinetic Monte Carlo Simulations to Evaluate Pure and Gas Mixture Diffusivities through a Dense Polymeric Membrane." The Journal of Physical Chemistry B (2023): Article ASAP.
-
-[2] Neyertz, S., and D. Brown. "A trajectory-extending kinetic Monte Carlo (TEKMC) method for estimating penetrant diffusion coefficients in molecular dynamics simulations of glassy polymers." Macromolecules 43.21 (2010): 9210-9214.
+[1] Dasgupta, S., KS, A., Ayappa, K. G., & Maiti, P. K. (2023). Trajectory-Extending Kinetic Monte Carlo Simulations to Evaluate Pure and Gas Mixture Diffusivities through a Dense Polymeric Membrane. The Journal of Physical Chemistry B. \
+[2] Neyertz, S., & Brown, D. (2010). A trajectory-extending kinetic Monte Carlo (TEKMC) method for estimating penetrant diffusion coefficients in molecular dynamics simulations of glassy polymers. Macromolecules, 43(21), 9210-9214.
