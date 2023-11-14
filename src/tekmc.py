@@ -1061,7 +1061,7 @@ class TEKMC:
         plt.yscale(y_scale)
         plt.xscale(x_scale)
 
-        plt.ylim([0,Ds[150]])
+        plt.ylim([0,Ds[-1]*10])
         plt.xlim([md_time[len(md_time)//5], time[-1]])
 
         plt.tick_params(axis="both", direction="in", which="major", size=8, labelsize="14")
