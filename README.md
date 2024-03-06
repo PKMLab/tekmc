@@ -11,7 +11,7 @@ A particle is then assumed to perform Markovian random walks inside the box, wit
 The timestep between two successive random walks is assumed to be constant.
 This matrix depends on the chosen grid sizes, which affects the dynamics of the random walkers.
 The grid size is tuned until the averaged mean squared displacement of the random walkers correspond to that of the input trajectory.
-The advantage of Trajectory Extending Kinetic Monte Carlo technique lies in utlisation of the final probability matrix, to perform significantly long simulations that represnet the true dynamics of the input system.
+The advantage of Trajectory Extending Kinetic Monte Carlo technique lies in utilisation of the final probability matrix, to perform significantly long simulations that represent the true dynamics of the input system.
 This enables studying long-time dynamics of slowly diffusing systems that would otherwise take significant computation time.
 
 # Article
