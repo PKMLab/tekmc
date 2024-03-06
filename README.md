@@ -6,8 +6,8 @@ Please read the docs for [Installation Instructions](docs/installation_instructi
 
 The kinetic Monte Carlo algorithm is used to sample a short simulation trajectory of small particles and extend it to longer timescales with low computation cost.
 The simulation box is sub-divided into small voxels having equal grid sizes.
-The input trajectory is analysed to construct a tranistion probability matrix, representative of the system and all its interactions.
-A particle is then assumed to perfom Markovian random walks inside the box, with its displacements biased with the probability matrix.
+The input trajectory is analysed to construct a transition probability matrix, representative of the system and all its interactions.
+A particle is then assumed to perform Markovian random walks inside the box, with its displacements biased with the probability matrix.
 The timestep between two successive random walks is assumed to be constant.
 This matrix depends on the chosen grid sizes, which affects the dynamics of the random walkers.
 The grid size is tuned until the averaged mean squared displacement of the random walkers correspond to that of the input trajectory.
